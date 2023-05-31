@@ -1,5 +1,5 @@
 # Maestros del Bye 
 
 Erika Yussed Oviedo Perez <br>
-Oscar Daniel Rivero
+Oscar Daniel Rivero <br>
 Héctor Manuel Beltrán Cifuentes
