@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Press Start 2P', cursive;
   }
+  
   #inicio{
     /*background-image: url('Banner.png');*/
     background-position:center;
@@ -22,6 +23,8 @@ body {
     width: 100vw;
     object-fit: cover;
   }
+  
+  
   .container {
     width: 350px;
     background-color: rgba(87, 103, 147, 0.317);
@@ -85,11 +88,23 @@ body {
     
     
   }
-  label, input{
-    margin: 2% 0;
+  select{
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+
   }
-  #nombre{
+  label, input{
+    
+    margin: 2% 0;
+    font-size: 1rem;
+  }
+  #IngresaNombre{
     width: 40vw;
-    height: 4vh;
+    height: 5vh;
     text-align: center;
   }

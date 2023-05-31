@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/canvas.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Pixels&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>A Ganar!</title>
 </head>
 
 <body>
-    
+    <header>
+        <ul>
+        <li>Jugador:<span id="MostrarNombre"></span></li>
+        <li>Team<div id="Colorcuadro">.....</div></li>
+        <li>Score:<span id="score">0</span></li>
+        </ul>
+    </header>
+    <button onclick="jugar()" id="startgame">Start</button>
 <div class="canvas-container">
-    
     <canvas width="1100px" height="570px" > </canvas>
 </div>
 <div class="div"><img src="img/carrito1.png" alt=""></div>
+
 
 <script src="./js/script.js"></script>
 
