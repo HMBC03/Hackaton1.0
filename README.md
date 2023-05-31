@@ -1,9 +1,7 @@
-# Hackaton1.0
 
-Hector Beltran
+# Maestros del Byte 
 
-Oscar Rivero
-
-Erika Yussed
-
+Erika Yussed Oviedo Perez <br>
+Oscar Daniel Rivero <br>
+Héctor Manuel Beltrán Cifuentes
 
