@@ -1,2 +1,9 @@
 # Hackaton1.0
-P
+
+Hector Beltran
+
+Oscar Rivero
+
+Erika Yussed
+
+
