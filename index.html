@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JUEGA-DIVIERTETE</title>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Pixels&display=swap" rel="stylesheet"> 
@@ -24,13 +27,24 @@
     <h2>PERSONALIZA TU COCHE</h2>
    <form action="formulario" method="post">
     <label for="nombre">Nombre del piloto:</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
-    <label for="color">Color del vehículo:</label>
-    <input type="color" id="color" name="color">
-    <a href="seleccion_carro.html" 
-    class="start-button">Start</a>
+    <input type="text" id="IngresaNombre" name="nombre" placeholder="Ingresa tu nombre">
+    <label for="select">Color de tu equipo:</label>
+    <div id="colorDivPrincipal">
+      <label for="Radio-rojo">Rojo</label>
+      <input type="radio" id="Radio-rojo" name="btnRadio" value="red"> 
+      <label for="Radio-azul">Azul</label>
+      <input type="radio" id="Radio-azul" name="btnRadio" value="blue">
+      <label for="Radio-verde">Verde</label>
+      <input type="radio" id="Radio-verde" name="btnRadio" value="green">
+    </div>
+    <a href="./canvas.html" onclick="mostrarNombreColor()" class="start-button">Start</a>
     </form>
+
+    <div id="Colorcuadro">.....</div> <br>
+    <h2 id="MostrarNombre"></h2>
+    <script src="./js/scriptindex.js"></script>
    
+    
   </div>
 </section>
 </body>
