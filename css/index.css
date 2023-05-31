@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+  }
+  #inicio{
+    /*background-image: url('Banner.png');*/
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+
+  }
+  video{
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .container {
+    width: 350px;
+    background-color: rgba(87, 103, 147, 0.317);
+    background-position:center;
+    padding: 7px;
+    border-radius: 10px;
+    align-content: center;
+    margin: 10%;
+        
+  }
+  
+  h1 {
+    color: #eae4e4;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #0a0a0a;
+
+  }
+  
+  p {
+    color: #e6e0e8;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .start-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(33, 40, 59, 0.9);
+    color: #f6ac0e;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #e7e6f3;
+  }
+
+  .login{
+    text-align: center;
+    color: #d6c07a;
+    font-size: 18px;
+    padding: 3% 15%;
+    text-shadow: 2px 2px 2px #0a0a0a;
+    margin:10pxlisto, y
+
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15%;
+    background-color: rgba(223, 155, 118, 0.317);
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 10%;
+    box-shadow: 2px 2px 2px #0a0a0a;
+    text-align: center;
+    
+    
+  }
+  label, input{
+    margin: 2% 0;
+  }
+  #nombre{
+    width: 40vw;
+    height: 4vh;
+    text-align: center;
+  }
